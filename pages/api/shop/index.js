@@ -6,8 +6,6 @@ export default function handler(req, res) {
         method,
     } = req
 
-    console.log(query)
-
     let shop = data.shop;
 
     if (query._limit) {
