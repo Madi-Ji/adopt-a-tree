@@ -12,7 +12,7 @@ export default function handler(req, res) {
         shop.items.length = query._limit;
     }
 
-    shop.items.at(0).latest = true
+    // shop.items.at(0).latest = true
 
     switch (method) {
         case 'GET':

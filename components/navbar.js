@@ -37,7 +37,7 @@ export default function Navbar() {
                     </NavbarFlowBite.Link>
                 </NavbarFlowBite.Collapse>
                 <NavbarFlowBite.Toggle />
-                <Button className='bg-gradient-to-r from-lime-200 to-green-400 text-blue-900' label={items.size}>
+                <Button href="/shop/checkout" className='bg-gradient-to-r from-lime-200 to-green-400 text-blue-900' label={items.size}>
                     <span><FontAwesomeIcon icon={faShoppingBag} className='w-5' /></span>
                     <span className='text-red'>Take away</span>
                 </Button>
